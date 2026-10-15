@@ -1,0 +1,4 @@
+{
+  "name": "PrettyGenocide.Runtime",
+  "references": ["Unity.InputSystem"]
+}

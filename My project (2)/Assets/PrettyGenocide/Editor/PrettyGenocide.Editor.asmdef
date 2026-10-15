@@ -1,0 +1,5 @@
+{
+  "name": "PrettyGenocide.Editor",
+  "references": ["PrettyGenocide.Runtime"],
+  "includePlatforms": ["Editor"]
+}

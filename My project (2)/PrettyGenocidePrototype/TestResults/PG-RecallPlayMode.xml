@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="23" result="Passed" total="23" passed="23" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-10-15 00:20:08Z" end-time="2026-10-15 00:20:13Z" duration="4.6370468">
+  <test-suite type="TestSuite" id="1031" name="My project (2)" fullname="My project (2)" runstate="Runnable" testcasecount="23" result="Passed" start-time="2026-10-15 00:20:08Z" end-time="2026-10-15 00:20:13Z" duration="4.637047" total="23" passed="23" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="PlayMode" />
+    </properties>
+    <test-suite type="Assembly" id="1025" name="PrettyGenocide.PlayModeTests.dll" fullname="C:/Users/송송포/Desktop/팀플준비중/pat-and-mat-team-game/My project (2)/Logs/PG-RecallValidation/Library/ScriptAssemblies/PrettyGenocide.PlayModeTests.dll" runstate="Runnable" testcasecount="23" result="Passed" start-time="2026-10-15 00:20:08Z" end-time="2026-10-15 00:20:13Z" duration="4.630935" total="23" passed="23" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="33340" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+        <property name="EditorOnly" value="False" />
+      </properties>
+      <test-suite type="TestSuite" id="1026" name="PrettyGenocide" fullname="PrettyGenocide" runstate="Runnable" testcasecount="23" result="Passed" start-time="2026-10-15 00:20:08Z" end-time="2026-10-15 00:20:13Z" duration="4.630398" total="23" passed="23" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="TestSuite" id="1027" name="Tests" fullname="PrettyGenocide.Tests" runstate="Runnable" testcasecount="23" result="Passed" start-time="2026-10-15 00:20:08Z" end-time="2026-10-15 00:20:13Z" duration="4.630062" total="23" passed="23" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-suite type="TestFixture" id="1001" name="PGCombatPlayModeTests" fullname="PrettyGenocide.Tests.PGCombatPlayModeTests" classname="PrettyGenocide.Tests.PGCombatPlayModeTests" runstate="Runnable" testcasecount="23" result="Passed" start-time="2026-10-15 00:20:08Z" end-time="2026-10-15 00:20:13Z" duration="4.629029" total="23" passed="23" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1012" name="CameraRelativeMovement_SprintIsFaster_StopsSmoothly" fullname="PrettyGenocide.Tests.PGCombatPlayModeTests.CameraRelativeMovement_SprintIsFaster_StopsSmoothly" methodname="CameraRelativeMovement_SprintIsFaster_StopsSmoothly" classname="PrettyGenocide.Tests.PGCombatPlayModeTests" runstate="Runnable" seed="1505116150" result="Passed" start-time="2026-10-15 00:20:08Z" end-time="2026-10-15 00:20:08Z" duration="0.321574" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1015" name="FastEnemyProjectile_CrossesReturnBetweenFrames_IsIntercepted" fullname="PrettyGenocide.Tests.PGCombatPlayModeTests.FastEnemyProjectile_CrossesReturnBetweenFrames_IsIntercepted" methodname="FastEnemyProjectile_CrossesReturnBetweenFrames_IsIntercepted" classname="PrettyGenocide.Tests.PGCombatPlayModeTests" runstate="Runnable" seed="1868262203" result="Passed" start-time="2026-10-15 00:20:08Z" end-time="2026-10-15 00:20:09Z" duration="0.224923" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1002" name="FirstClickOnlyAims_ThenOneShot_ReleaseDoesNotRepeat" fullname="PrettyGenocide.Tests.PGCombatPlayModeTests.FirstClickOnlyAims_ThenOneShot_ReleaseDoesNotRepeat" methodname="FirstClickOnlyAims_ThenOneShot_ReleaseDoesNotRepeat" classname="PrettyGenocide.Tests.PGCombatPlayModeTests" runstate="Runnable" seed="1111921322" result="Passed" start-time="2026-10-15 00:20:09Z" end-time="2026-10-15 00:20:09Z" duration="0.191328" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1017" name="Hud_SelectsChildCollider_TracksHealth_AndClearsDeadTarget" fullname="PrettyGenocide.Tests.PGCombatPlayModeTests.Hud_SelectsChildCollider_TracksHealth_AndClearsDeadTarget" methodname="Hud_SelectsChildCollider_TracksHealth_AndClearsDeadTarget" classname="PrettyGenocide.Tests.PGCombatPlayModeTests" runstate="Runnable" seed="2004791606" result="Passed" start-time="2026-10-15 00:20:09Z" end-time="2026-10-15 00:20:09Z" duration="0.189542" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1019" name="Hud_UsesFreeCursorRay_AndIgnoresVisualRecoil" fullname="PrettyGenocide.Tests.PGCombatPlayModeTests.Hud_UsesFreeCursorRay_AndIgnoresVisualRecoil" methodname="Hud_UsesFreeCursorRay_AndIgnoresVisualRecoil" classname="PrettyGenocide.Tests.PGCombatPlayModeTests" runstate="Runnable" seed="1822656952" result="Passed" start-time="2026-10-15 00:20:09Z" end-time="2026-10-15 00:20:09Z" duration="0.183035" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1018" name="Hud_WallAndEmptyAim_ClearPanel_AndCancelAimHidesIt" fullname="PrettyGenocide.Tests.PGCombatPlayModeTests.Hud_WallAndEmptyAim_ClearPanel_AndCancelAimHidesIt" methodname="Hud_WallAndEmptyAim_ClearPanel_AndCancelAimHidesIt" classname="PrettyGenocide.Tests.PGCombatPlayModeTests" runstate="Runnable" seed="152045119" result="Passed" start-time="2026-10-15 00:20:09Z" end-time="2026-10-15 00:20:09Z" duration="0.190746" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1013" name="LowCeiling_PreventsStandingUntilClear" fullname="PrettyGenocide.Tests.PGCombatPlayModeTests.LowCeiling_PreventsStandingUntilClear" methodname="LowCeiling_PreventsStandingUntilClear" classname="PrettyGenocide.Tests.PGCombatPlayModeTests" runstate="Runnable" seed="1858063009" result="Passed" start-time="2026-10-15 00:20:09Z" end-time="2026-10-15 00:20:10Z" duration="0.187399" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1004" name="ManualRecall_DeliversPhysically_CancelsAim_RejectsRepeatedClicks" fullname="PrettyGenocide.Tests.PGCombatPlayModeTests.ManualRecall_DeliversPhysically_CancelsAim_RejectsRepeatedClicks" methodname="ManualRecall_DeliversPhysically_CancelsAim_RejectsRepeatedClicks" classname="PrettyGenocide.Tests.PGCombatPlayModeTests" runstate="Runnable" seed="1378478347" result="Passed" start-time="2026-10-15 00:20:10Z" end-time="2026-10-15 00:20:10Z" duration="0.190195" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1008" name="Outbound_HitsTargetOnce_ThenDropsToFloor" fullname="PrettyGenocide.Tests.PGCombatPlayModeTests.Outbound_HitsTargetOnce_ThenDropsToFloor" methodname="Outbound_HitsTargetOnce_ThenDropsToFloor" classname="PrettyGenocide.Tests.PGCombatPlayModeTests" runstate="Runnable" seed="1777371789" result="Passed" start-time="2026-10-15 00:20:10Z" end-time="2026-10-15 00:20:10Z" duration="0.185432" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1009" name="Outbound_WallBlocksHighSpeedShot" fullname="PrettyGenocide.Tests.PGCombatPlayModeTests.Outbound_WallBlocksHighSpeedShot" methodname="Outbound_WallBlocksHighSpeedShot" classname="PrettyGenocide.Tests.PGCombatPlayModeTests" runstate="Runnable" seed="1979223188" result="Passed" start-time="2026-10-15 00:20:10Z" end-time="2026-10-15 00:20:10Z" duration="0.184621" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1005" name="PartialArrival_DoesNotUnlockFiring" fullname="PrettyGenocide.Tests.PGCombatPlayModeTests.PartialArrival_DoesNotUnlockFiring" methodname="PartialArrival_DoesNotUnlockFiring" classname="PrettyGenocide.Tests.PGCombatPlayModeTests" runstate="Runnable" seed="93236544" result="Passed" start-time="2026-10-15 00:20:10Z" end-time="2026-10-15 00:20:10Z" duration="0.206409" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1024" name="RecallFeedback_AutoDelayWaits_WeaponDisableAndResumeFollowState" fullname="PrettyGenocide.Tests.PGCombatPlayModeTests.RecallFeedback_AutoDelayWaits_WeaponDisableAndResumeFollowState" methodname="RecallFeedback_AutoDelayWaits_WeaponDisableAndResumeFollowState" classname="PrettyGenocide.Tests.PGCombatPlayModeTests" runstate="Runnable" seed="1544487524" result="Passed" start-time="2026-10-15 00:20:10Z" end-time="2026-10-15 00:20:11Z" duration="0.203463" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1021" name="RecallFeedback_FollowsReturn_PreservesAim_StopsOnArrival" fullname="PrettyGenocide.Tests.PGCombatPlayModeTests.RecallFeedback_FollowsReturn_PreservesAim_StopsOnArrival" methodname="RecallFeedback_FollowsReturn_PreservesAim_StopsOnArrival" classname="PrettyGenocide.Tests.PGCombatPlayModeTests" runstate="Runnable" seed="1577336199" result="Passed" start-time="2026-10-15 00:20:11Z" end-time="2026-10-15 00:20:11Z" duration="0.201824" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1022" name="RecallHitFeedback_KillingBlowTriggersOnce_ForMultipleColliders" fullname="PrettyGenocide.Tests.PGCombatPlayModeTests.RecallHitFeedback_KillingBlowTriggersOnce_ForMultipleColliders" methodname="RecallHitFeedback_KillingBlowTriggersOnce_ForMultipleColliders" classname="PrettyGenocide.Tests.PGCombatPlayModeTests" runstate="Runnable" seed="1440458515" result="Passed" start-time="2026-10-15 00:20:11Z" end-time="2026-10-15 00:20:11Z" duration="0.179671" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1023" name="RecallHitFeedback_NoDamageIsSilent_StackIsBounded_MotionScaleMutes" fullname="PrettyGenocide.Tests.PGCombatPlayModeTests.RecallHitFeedback_NoDamageIsSilent_StackIsBounded_MotionScaleMutes" methodname="RecallHitFeedback_NoDamageIsSilent_StackIsBounded_MotionScaleMutes" classname="PrettyGenocide.Tests.PGCombatPlayModeTests" runstate="Runnable" seed="410296760" result="Passed" start-time="2026-10-15 00:20:11Z" end-time="2026-10-15 00:20:11Z" duration="0.212482" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1010" name="RecoilChangesRenderedCamera_ButNotLogicalAim" fullname="PrettyGenocide.Tests.PGCombatPlayModeTests.RecoilChangesRenderedCamera_ButNotLogicalAim" methodname="RecoilChangesRenderedCamera_ButNotLogicalAim" classname="PrettyGenocide.Tests.PGCombatPlayModeTests" runstate="Runnable" seed="1748526346" result="Passed" start-time="2026-10-15 00:20:11Z" end-time="2026-10-15 00:20:11Z" duration="0.207211" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1014" name="RemovedBullet_ReplacedAtFieldPosition_WithoutGrantingAmmo" fullname="PrettyGenocide.Tests.PGCombatPlayModeTests.RemovedBullet_ReplacedAtFieldPosition_WithoutGrantingAmmo" methodname="RemovedBullet_ReplacedAtFieldPosition_WithoutGrantingAmmo" classname="PrettyGenocide.Tests.PGCombatPlayModeTests" runstate="Runnable" seed="1245120702" result="Passed" start-time="2026-10-15 00:20:11Z" end-time="2026-10-15 00:20:12Z" duration="0.187624" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[An active revolver bullet was externally removed. Returning a replacement with the same chamber ID.
+]]></output>
+            </test-case>
+            <test-case id="1006" name="Return_PiercesWallAndMultipleTargets_DeduplicatesColliders_InterceptsProjectile" fullname="PrettyGenocide.Tests.PGCombatPlayModeTests.Return_PiercesWallAndMultipleTargets_DeduplicatesColliders_InterceptsProjectile" methodname="Return_PiercesWallAndMultipleTargets_DeduplicatesColliders_InterceptsProjectile" classname="PrettyGenocide.Tests.PGCombatPlayModeTests" runstate="Runnable" seed="1638029494" result="Passed" start-time="2026-10-15 00:20:12Z" end-time="2026-10-15 00:20:12Z" duration="0.189671" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1007" name="Return_StartingInsideTarget_HitsOnlyOnceAcrossFrames" fullname="PrettyGenocide.Tests.PGCombatPlayModeTests.Return_StartingInsideTarget_HitsOnlyOnceAcrossFrames" methodname="Return_StartingInsideTarget_HitsOnlyOnceAcrossFrames" classname="PrettyGenocide.Tests.PGCombatPlayModeTests" runstate="Runnable" seed="1202786542" result="Passed" start-time="2026-10-15 00:20:12Z" end-time="2026-10-15 00:20:12Z" duration="0.192211" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1003" name="SixShots_AutoRecallKeepsAim_AndLocksFire" fullname="PrettyGenocide.Tests.PGCombatPlayModeTests.SixShots_AutoRecallKeepsAim_AndLocksFire" methodname="SixShots_AutoRecallKeepsAim_AndLocksFire" classname="PrettyGenocide.Tests.PGCombatPlayModeTests" runstate="Runnable" seed="774108274" result="Passed" start-time="2026-10-15 00:20:12Z" end-time="2026-10-15 00:20:12Z" duration="0.201236" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1016" name="SlideDistance_IsConsistentAt30_60_120Fps" fullname="PrettyGenocide.Tests.PGCombatPlayModeTests.SlideDistance_IsConsistentAt30_60_120Fps" methodname="SlideDistance_IsConsistentAt30_60_120Fps" classname="PrettyGenocide.Tests.PGCombatPlayModeTests" runstate="Runnable" seed="2002857227" result="Passed" start-time="2026-10-15 00:20:12Z" end-time="2026-10-15 00:20:12Z" duration="0.210036" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1011" name="SlideUsesAim_NotMove_CameraCanTurn_RecallFollowsMovingPlayer" fullname="PrettyGenocide.Tests.PGCombatPlayModeTests.SlideUsesAim_NotMove_CameraCanTurn_RecallFollowsMovingPlayer" methodname="SlideUsesAim_NotMove_CameraCanTurn_RecallFollowsMovingPlayer" classname="PrettyGenocide.Tests.PGCombatPlayModeTests" runstate="Runnable" seed="1390548979" result="Passed" start-time="2026-10-15 00:20:12Z" end-time="2026-10-15 00:20:13Z" duration="0.186901" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1020" name="SlideVisualPose_TiltsAndRestores_WithoutTiltingController" fullname="PrettyGenocide.Tests.PGCombatPlayModeTests.SlideVisualPose_TiltsAndRestores_WithoutTiltingController" methodname="SlideVisualPose_TiltsAndRestores_WithoutTiltingController" classname="PrettyGenocide.Tests.PGCombatPlayModeTests" runstate="Runnable" seed="248860701" result="Passed" start-time="2026-10-15 00:20:13Z" end-time="2026-10-15 00:20:13Z" duration="0.188636" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[Saving results to: C:/Users/송송포/AppData/LocalLow/DefaultCompany/My project (2)\TestResults.xml
+]]></output>
+            </test-case>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>
